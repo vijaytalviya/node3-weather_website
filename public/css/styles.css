@@ -1,0 +1,87 @@
+
+
+
+.main-content{
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+    width: 100%;
+    margin: 0;
+    
+}
+.main-content-subclass{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg?cs=srgb&dl=pexels-mabel-amber-125457.jpg&fm=jpg);
+    background-size: cover;
+}
+
+
+
+header {
+    margin-top: 16px ;
+    margin-bottom: 40px;
+    border-bottom: ivory;
+    align-content: center;
+    color: whitesmoke;
+    
+    
+    
+
+}
+h1{
+    font-size: 64px;
+    margin-bottom:16px ;
+    
+}
+header a{
+    color:whitesmoke;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+div.header1{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.portrait{
+    width:250px;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 8px ;
+    border-radius: 5px;
+
+}
+
+button{
+     cursor: pointer;
+     border: 1px solid #888888;
+     background:#888888 ;
+     color: azure;
+     padding: 8px;
+     border-radius: 5px;
+}
+
+#message-4,#message-5,#message-2{
+
+    font-size: 20px;
+    
+
+}
+#message-1,#message-3{
+    font-size: 25px;
+    
+}
+
